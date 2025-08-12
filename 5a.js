@@ -9,7 +9,9 @@ nomes.push(prompt(`Nome 1: `));
 nomes.push(prompt(`Nome 2: `));
 nomes.push(prompt(`Nome 3: `));
 
-saudacao(nomes);
+saudacao(nomes[0]);
+saudacao(nomes[1]);
+saudacao(nomes[2]);
 
 function saudacao (nome) {
     console.log(`\nOlá, ${nome}! Seja bem-vindo(a)!`);
